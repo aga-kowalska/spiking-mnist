@@ -1,0 +1,71 @@
+
+              -- N E S T --
+  Copyright (C) 2004 The NEST Initiative
+
+ Version: 3.3
+ Built: May  5 2022 07:35:59
+
+ This program is provided AS IS and comes with
+ NO WARRANTY. See the file LICENSE for details.
+
+ Problems or suggestions?
+   Visit https://www.nest-simulator.org
+
+ Type 'nest.help()' to find out more about NEST.
+
+5 ['mnist5.py', '4', 'data/dataSet1-10.csv', 'output/ignore.pkl', 'output/initSynapses.pkl']
+init synapses with compensatory run
+start 6400
+compensatory increase to neuron  4 97
+compensatory increase to neuron  8 52
+compensatory increase to neuron  9 50
+compensatory increase to neuron  10 7
+compensatory increase to neuron  11 54
+compensatory increase to neuron  12 34
+compensatory increase to neuron  13 51
+compensatory increase to neuron  16 86
+compensatory decrease to neuron  18 283
+compensatory increase to neuron  19 55
+compensatory decrease to neuron  22 285
+compensatory increase to neuron  24 21
+compensatory increase to neuron  25 60
+compensatory decrease to neuron  26 296
+compensatory increase to neuron  27 67
+compensatory increase to neuron  30 45
+compensatory increase to neuron  35 92
+compensatory increase to neuron  36 22
+compensatory increase to neuron  37 9
+compensatory decrease to neuron  38 288
+compensatory increase to neuron  39 68
+compensatory increase to neuron  40 20
+compensatory increase to neuron  43 43
+compensatory increase to neuron  45 7
+compensatory increase to neuron  46 31
+compensatory increase to neuron  49 59
+compensatory increase to neuron  50 44
+compensatory increase to neuron  51 79
+compensatory increase to neuron  56 55
+compensatory increase to neuron  57 78
+compensatory increase to neuron  59 32
+compensatory increase to neuron  60 60
+compensatory increase to neuron  64 66
+compensatory increase to neuron  66 18
+compensatory increase to neuron  68 38
+compensatory decrease to neuron  71 291
+compensatory increase to neuron  73 51
+compensatory increase to neuron  76 26
+compensatory increase to neuron  77 92
+compensatory increase to neuron  79 86
+compensatory increase to neuron  80 42
+compensatory increase to neuron  84 28
+compensatory increase to neuron  86 51
+compensatory increase to neuron  88 28
+compensatory increase to neuron  89 83
+compensatory increase to neuron  90 7
+compensatory increase to neuron  91 94
+compensatory increase to neuron  92 35
+compensatory increase to neuron  94 68
+compensatory increase to neuron  95 57
+compensatory increase to neuron  97 25
+Neurons decreasing  5  increasing 46
+compensatory change made

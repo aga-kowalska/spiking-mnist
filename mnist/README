@@ -1,0 +1,56 @@
+The datafiles are not mine.  They're from the UCI depository. The two
+folds are the way I folded it in my coursework.  I think I just took
+the dataset from UCI and split it in half.  The files with the -1 separators
+are just those original files broken into tenths.  They're all comma
+separated files.
+
+*****For the mnist task with the compensatory rule....
+If you want to train and test with the compensatory files, you can
+readily run the first fold  (train on set1 test on set2).
+
+source trainMnist5.sh
+#Copy the last pkl file from training to testC1.pkl
+cp output/tempCompense23.pkl output/testC1.pkl 
+source testMnist5.sh
+#That should give you a printout with the results from each of the 10 10ths
+#of the training files.
+
+If you want to run the other fold 
+
+####To try the other fold,
+#edit the trainMnist5.sh file changing the inputFilePrefix from dataSet1-
+#to dataSet2.
+source trainMnist5.sh
+#edit the testMnist5.sh file.  Change synapseFileName to the newly
+#trained file from running trainMnist5.sh.  It's the last pkl file generated;
+#I use ls -lt *.pkl.
+#change the dataFilePrefix from dataSet2- to dataSet1
+#change the trainDataFileName frrom dataSet1-1.csv to dataSet2-1.csv.
+source testMnist5.sh
+
+#I included testC1.pkl for the first fold and testC2.pkl for the second if
+#you just want to try the test.  
+
+*****For the mnist task with the category neurons with adaptation .....
+I had a problem with running multiple 10ths during training.  The result
+is that lots of category neurons don't fire.  I think the problem is that
+you lose all the adaptation when you rerun.  So, you can only train on
+one 10th.  I'll try to fix this by storing and rereading the adaptation,
+but for now....
+
+##For the first fold, 
+source trainMnist6.sh
+source testMnist6.sh
+
+##For the second fold
+#Edit trainMnist6.sh and change inputFilePrefix to dataSet2-
+source trainMnist6.sh
+#You need to edit the testMnist6.sh,  change trainDataFileName from
+#dataSet1-1, to dataSet2-1,
+#and testDataFilePrefix from dataSet2- to dataSet1. Then
+source testMnist6.sh
+
+#As before, the results come out in the run by 10ths.  They look like
+#281 60.0 0.21352313167259787
+#0.21352313167259787 is the percentage from that test run.   
+

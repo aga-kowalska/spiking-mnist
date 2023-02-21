@@ -1,0 +1,22 @@
+
+              -- N E S T --
+  Copyright (C) 2004 The NEST Initiative
+
+ Version: 3.3
+ Built: May  5 2022 07:35:59
+
+ This program is provided AS IS and comes with
+ NO WARRANTY. See the file LICENSE for details.
+
+ Problems or suggestions?
+   Visit https://www.nest-simulator.org
+
+ Type 'nest.help()' to find out more about NEST.
+
+5 ['mnist5.py', '2', 'data/dataSet1-7.csv', 'output/tempCompense21.pkl', 'output/tempCompense22.pkl']
+compensatory run
+start 6400
+compensatory increase to neuron  6 97
+compensatory increase to neuron  91 88
+Neurons decreasing  0  increasing 2
+compensatory change made
